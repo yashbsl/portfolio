@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASH BANSAL-PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/067c75707b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.svg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h0><span class="typing">DEVELOPER</span></h0>
+                <h1> Hi, I'm <span>YASH</span> BANSAL</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ===========about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image (1).png" class="image1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> ABOUT ME</h1>
+                    <p>
+                        Hi, I'm Yash, a passionate and driven B.Tech student specializing in Computer Science and
+                        Engineering at LIET, Greater Noida. I am enthusiastic about leveraging my skills in programming,
+                        problem-solving, and web development to create impactful and innovative solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                        <p class="tab-links" onclick="opentab('EXPERIANCE')">EXPERIANCE</p>
+                    </div>
+                    <div class="tab-content active-tab" id="SKILLS">
+                        <ul>
+                            <li><samp>C/C++</samp><br>CODING LANGUAGES</li>
+                            <li><samp>PYTHON/MYSQL</samp><br>CODING LANGUAGES AND DATABASE MANAGEMENT</li>
+                            <li><samp>WEB DEVELOPMENT</samp><br>BUILDING WEB PAGES</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="EDUCATION">
+                        <ul>
+                            <li><samp>2023-CURRENT</samp><br>Student at the Lloyd Institute of Engineering and
+                                Technology. </li>
+                            <li><samp>2023</samp><br>Higher Secondary School</li>
+                            <li><samp>2021</samp><br>High School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="EXPERIANCE">
+                        <ul>
+                            <li><samp>Managed Coding Portfolio</samp><br>Designed, developed, and continually updated a
+                                personal portfolio website to effectively communicate my technical expertise, creative
+                                projects, and professional journey.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services----------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> MY SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-laptop-code icon"></i>
+                    <h2>WEB DEVELOPMENT</h2>
+                    <p>Empowering my growth and creativity by continuously building and enhancing skills through web
+                        development projects.By using applications like HTML,CSS,JAVASCRIPT </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>LOGIC BUILDING</h2>
+                    <p>Logic building and problem solving in professional languages (C/C++/PYTHON) </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------portfolio---------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images1.jpg">
+                    <div class="layer">
+                        <h3>PORTFOLIO</h3>
+                        <p>Designed and continuously updating my portfolio using HTML and CSS, while enhancing my skills
+                            in Python, C, DSA, and web development to create innovative solutions that address societal
+                            challenges. </p>
+                        <a href="#"> <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images2.jpg">
+                    <div class="layer">
+                        <h3>PROJECTS</h3>
+                        <p>Currently working on my project—an AI-driven job program designed to address key societal
+                            challenges and help people secure the jobs they truly deserve.</p>
+                        <a href="#"> <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------contact----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h4 class="sub-title">CONTACT ME</h4>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact.yashbansal@gmail.com</p>
+                    <p><i class="phone fa-solid fa-square-phone"></i> +91 8512034148 </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yash-bansal-b33163339/" class="social-icon"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/yashbsl/" class="social-icon"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="#"><img class="gfg"
+                                src="https://media.geeksforgeeks.org/wp-content/uploads/20220413171711/gfgblack.png"></a> -->
+                        <a href="https://leetcode.com/u/TaK4BOV1w6/"><img class="lc"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2KJ34dO3Vp7rp1UHEo4eO8VAFNoHKLI9mrw&s"></a>
+                    </div>
+                    <a href="YASH'S RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-right">
+                        <form method="post"
+                            action="https://script.google.com/macros/s/AKfycby512joxL934nhbaQMw7KaHk0KByrSZF0cTiJxMjHmKoCMAL7wTBpwupwMdlO99Ywx3kA/exec"
+                            name="submit-to-google-sheet">
+                            <input type="text" name="NAME" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © YASH. Made with❤️</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwxpvmZVcUg3bfYXgrvC8DRyeUGwJIYat_l5xz6nrwHGODDu0x5xV5oNMNfYVgISM2HAA/exec'
+        const form = document.forms['contact-form']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thank you! your form is submitted successfully."))
+                .then(() => { window.location.reload(); })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var typed = new Typed(".typing",{
+    strings:["Coder", "Developer","FrontEnd Design"],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: true
+})
+    </script>
+</body>
+
+</html>
