@@ -350,7 +350,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(2.png);
+    background-image: url(/2.png);
     background-size: cover; 
     background-position: center;
     padding: 20px 10px;
